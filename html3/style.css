@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #000098;
+}
+.header{
+    background-color: blue;
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 150px;
+}
+.heading{
+    width: 250px;
+    color: white;
+    font-size: 1.25rem;
+}
+.menu{
+    display: flex;
+    gap:50px;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    gap: 34px;
+    color: white;
+}
+.menu ul li{
+    list-style: none;
+}
+.searchbar{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+}
+.searchbar input{
+    border-radius: 25px;
+    height: 25px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    background-color: transparent;
+}
+.searchbar button{
+    background-color:black;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 15px;
+    color:white;
+}
+.searchbar button:hover{
+    background-color: grey;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.left{
+    background-color:#0000b2 ;
+    width: 40%;
+    height: 90vh;
+    text-align: center;
+    align-content: center;
+}
+.right{
+    color: white;
+    background-color: #0000b2;
+    width: 40%;
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.right input{
+    display: block;
+    width: 15vw;
+    height: 5vh;
+    border: solid black 2px;
+    border-radius: 15px;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.right .group{
+    justify-content: center;
+    /* gap: 25px; */
+}
+.right button{
+    width: 100px;
+    height: 40px;
+    margin-top: 10%;
+    background-color: #237abc;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.right button:hover{
+    background-color: #1b5e91;
+}
