@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Image Carousel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .carousel-container {
+      max-width: 500px;
+      margin: 50px auto;
+      text-align: center;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+
+    .carousel-container img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .carousel-container button {
+      padding: 10px 15px;
+      margin: 0 5px;
+      font-size: 16px;
+      border: none;
+      background-color: teal;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .carousel-container button:hover {
+      background-color: #00695c;
+    }
+  </style>
+</head>
+<body>
+  <div class="carousel-container">
+    <h2>Image Carousel</h2>
+    <img id="carousel-img" src="https://picsum.photos/id/1018/500/300" alt="Carousel Image" />
+    <br />
+    <button onclick="prevImage()">⟵ Prev</button>
+    <button onclick="nextImage()">Next ⟶</button>
+  </div>
+
+  <script src="carousel.js"></script>
+</body>
+</html>

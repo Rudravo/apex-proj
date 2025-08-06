@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact + Responsive Layout</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">My Website Header</header>
+
+    <nav class="nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="todo.html">To-Do List</a></li>
+      </ul>
+    </nav>
+
+    <main class="main">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+
+    <aside class="sidebar">
+      <h3>About Us</h3>
+      <p>This is a responsive layout with a form using Flexbox and Grid.</p>
+    </aside>
+
+    <footer class="footer">© 2025 All Rights Reserved</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
